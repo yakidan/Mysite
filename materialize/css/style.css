@@ -4,3 +4,7 @@ nav{
 body{
     height: 1000px;
 }
+
+.row .input-field{
+    margin-bottom: 0rem;
+}

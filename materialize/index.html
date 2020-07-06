@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
-    <link rel="stylesheet" href="css/style.css">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
 
-<body>
-<div class="navbar-fixed">
+
+<div class="navbar-fixed ">
     <nav>
         <div class="nav-wrapper blue">
             <div class="container">
@@ -28,14 +29,19 @@
     </nav>
 </div>
 
-<div id="modal1" class="modal">
-    <div class="modal-content">
+<div id="modal1" class="modal ">
+    <div class="modal-content ">
+        <div class="row">
+            <div class="col s12 center">
+                <h5>Login</h5>
+            </div>
+        </div>
         <div class="row">
             <form name="myForm" class="col s12">
                 <div class="row">
-                    <div class="input-field col s6">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input name="" type="text" class="validate" placeholder="Name"
+                    <div class="input-field col s6 active">
+                        <i class="material-icons prefix ">account_circle</i>
+                        <input name="" type="text" class="validate focus" placeholder="Name"
                                id="first_name">
                         <label for="first_name">First name</label>
                     </div>
@@ -59,15 +65,22 @@
                         <i class="material-icons prefix">mail</i>
                         <input type="email" class="validate"
                                id="email">
-                        <label for="password">Email</label>
+                        <label for="email">Email</label>
                     </div>
                 </div>
+
             </form>
+            <div class="row">
+                <div class="input-field col s12 center">
+                    <button class="btn"
+                            id="click_on_registr" name="sigh up">sigh up
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="modal-footer">
 
-    </div>
 </div>
 <!--JavaScript at end of body for optimized loading-->
 
@@ -78,7 +91,7 @@
 <script>
     $(document).ready(function () {
         $('.modal').modal({
-            opacity: 0.3,
+            opacity: 0.4,
             inDuration: 500,
         });
     })
