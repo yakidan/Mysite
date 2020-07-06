@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    /*margin-top: -1%;*/
+}
+
+.header {
+    font-family: Arial;
+    font-size: smaller;
+    background: cyan;
+    display: table;
+    direction: rtl;
+    width: 100%;
+
+}
+
+.header .header_entry {
+    display: table-cell;
+    width: 20%;
+    padding-right: 2%;
+
+}
+
+.header h1 {
+    text-align: left;
+    font-size: 20px;
+    display: table-cell;
+    padding-top: 0.3%;
+    padding-left: 1%;
+
+
+}
+
+.header p {
+    text-align: left;
+    font-family: Arial;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.header input {
+    width: 100%;
+    border: 2px solid #040002;
+    border-radius: 3px;
+    text-align:left;
+}
