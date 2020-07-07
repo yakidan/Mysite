@@ -1,15 +1,10 @@
-nav {
+nav{
 
 }
-
-body {
+body{
     height: 1000px;
 }
 
-.row .input-field {
+.row .input-field{
     margin-bottom: 0rem;
-}
-
-body .modal {
-    max-height: 75%;
 }
