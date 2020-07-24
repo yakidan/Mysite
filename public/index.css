@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    min-height: 1000px;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+ 
+
+.nav-wrapper{
+    background-color:mediumturquoise;
+    padding:0 2rem;
+}
+
+.price{
+    font-size: 2rem;
+}
+.course{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+.course h1{
+    margin-bottom: 2rem
+}
+.course img{
+    max-width:600px;
+    height: auto;
+}
+.course .price.big{
+    font-size: 2.5rem;
+}
+.card-action.actions{
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+.course-form{
+    margin-bottom: 2rem;
+}
+.login{
+    margin-top: 3px;
+}
+.alert{
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    text-align:center;
+    margin-bottom: 1rem;
+    background: rgba(255,0,0,.3);
+    color:red;
+}
+.avatar{
+    max-width: 300px;
+    height: auto;
+}
+ul.footer-ul li{
+    display:inline;
+    margin-right: 1em;
+}
+.page-footer{
+    background-color:mediumturquoise;
+}
+  
+  .tabs .tab a {
+    color: mediumaquamarine;
+
+  }
+  
+  .tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(226, 255, 250, 0.7);
+  }
+  
+  .tabs .tab a:hover, .tabs .tab a.active {
+    color: mediumaquamarine;
+  }
+  
+  .tabs .tab.disabled a,
+  .tabs .tab.disabled a:hover {
+    color: mediumaquamarine;
+  }
+  
+  .tabs .indicator {
+    background-color: mediumaquamarine;
+  }
+  .card{
+    height: 500px;
+  }
+  .card-image {
+      
+  }
+  .card-content{
+
+  }
+  .img-courses{
+      height: 100px;
+  }
+  
